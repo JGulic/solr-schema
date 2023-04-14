@@ -295,32 +295,32 @@
 	-->
 	<searchComponent name="suggest" class="solr.SuggestComponent">
 		<lst name="suggester">
-		<str name="name">datasetTitleSuggester</str>
-		<str name="lookupImpl">AnalyzingInfixLookupFactory</str>
-		<str name="dictionaryImpl">DocumentDictionaryFactory</str>
-		<str name="field">title</str>
-		<str name="minPrefixChars">2</str>
-		<str name="suggestAnalyzerFieldType">text</str>
-		<str name="buildOnStartup">false</str>
-		<str name="highlight">false</str>
+			<str name="name">datasetTitleSuggester</str>
+			<str name="lookupImpl">AnalyzingInfixLookupFactory</str>
+			<str name="dictionaryImpl">DocumentDictionaryFactory</str>
+			<str name="field">title</str>
+			<str name="minPrefixChars">2</str>
+			<str name="suggestAnalyzerFieldType">text</str>
+			<str name="buildOnStartup">false</str>
+			<str name="highlight">false</str>
 		</lst>
 		<lst name="suggester">
-		<str name="name">datasetNotesSuggester</str>
-		<str name="lookupImpl">AnalyzingInfixLookupFactory</str>
-		<str name="dictionaryImpl">DocumentDictionaryFactory</str>
-		<str name="field">notes</str>
-		<str name="minPrefixChars">2</str>
-		<str name="suggestAnalyzerFieldType">text</str>
-		<str name="buildOnStartup">false</str>
-		<str name="highlight">false</str>
+			<str name="name">datasetNotesSuggester</str>
+			<str name="lookupImpl">AnalyzingInfixLookupFactory</str>
+			<str name="dictionaryImpl">DocumentDictionaryFactory</str>
+			<str name="field">notes</str>
+			<str name="minPrefixChars">2</str>
+			<str name="suggestAnalyzerFieldType">text</str>
+			<str name="buildOnStartup">false</str>
+			<str name="highlight">false</str>
 		</lst>
 		<lst name="suggester">
-		<str name="name">datasetTagsSuggester</str>
-		<str name="lookupImpl">FuzzyLookupFactory</str>
-		<str name="dictionaryImpl">DocumentDictionaryFactory</str>
-		<str name="field">tags</str>
-		<str name="suggestAnalyzerFieldType">text</str>
-		<str name="buildOnStartup">false</str>
+			<str name="name">datasetTagsSuggester</str>
+			<str name="lookupImpl">FuzzyLookupFactory</str>
+			<str name="dictionaryImpl">DocumentDictionaryFactory</str>
+			<str name="field">tags</str>
+			<str name="suggestAnalyzerFieldType">text</str>
+			<str name="buildOnStartup">false</str>
 		</lst>
 	</searchComponent>
 
