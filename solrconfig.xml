@@ -308,7 +308,7 @@
 			<str name="name">datasetHebrewTitleSuggester</str>
 			<str name="lookupImpl">AnalyzingInfixLookupFactory</str>
 			<str name="dictionaryImpl">DocumentDictionaryFactory</str>
-			<str name="field">title_hebrew</str>
+			<str name="field">extras_title_hebrew</str>
 			<str name="minPrefixChars">2</str>
 			<str name="suggestAnalyzerFieldType">text</str>
 			<str name="buildOnStartup">false</str>
