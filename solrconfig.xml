@@ -341,7 +341,7 @@
 		<str name="suggest">true</str>
 		<str name="suggest.count">5</str>
 		<str name="suggest.dictionary">datasetTitleSuggester</str>
-		<str name="suggest.dictionary">datasetTitleHebrewSuggester</str>
+		<str name="suggest.dictionary">datasetHebrewTitleSuggester</str>
 		<str name="suggest.dictionary">datasetNotesSuggester</str>
 		<str name="suggest.dictionary">datasetTagsSuggester</str>
 		</lst>
