@@ -288,10 +288,10 @@
 		
 	</searchComponent>
 
-		<!-- Suggester Component
+	<!-- Suggester Component
 
-		The SuggestComponent in Solr provides users
-		with auto	matic suggestions for query terms.
+	The SuggestComponent in Solr provides users
+	with auto	matic suggestions for query terms.
 	-->
 	<searchComponent name="suggest" class="solr.SuggestComponent">
 		<lst name="suggester">
@@ -304,6 +304,16 @@
 			<str name="buildOnStartup">false</str>
 			<str name="highlight">false</str>
 		</lst>
+		<lst name="suggester">
+			<str name="name">datasetHebrewTitleSuggester</str>
+			<str name="lookupImpl">AnalyzingInfixLookupFactory</str>
+			<str name="dictionaryImpl">DocumentDictionaryFactory</str>
+			<str name="field">title_hebrew</str>
+			<str name="minPrefixChars">2</str>
+			<str name="suggestAnalyzerFieldType">text</str>
+			<str name="buildOnStartup">false</str>
+			<str name="highlight">false</str>
+		</lst>		
 		<lst name="suggester">
 			<str name="name">datasetNotesSuggester</str>
 			<str name="lookupImpl">AnalyzingInfixLookupFactory</str>
@@ -331,6 +341,7 @@
 		<str name="suggest">true</str>
 		<str name="suggest.count">5</str>
 		<str name="suggest.dictionary">datasetTitleSuggester</str>
+		<str name="suggest.dictionary">datasetTitleHebrewSuggester</str>
 		<str name="suggest.dictionary">datasetNotesSuggester</str>
 		<str name="suggest.dictionary">datasetTagsSuggester</str>
 		</lst>
