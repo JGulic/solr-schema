@@ -313,6 +313,26 @@
 			<str name="suggestAnalyzerFieldType">text</str>
 			<str name="buildOnStartup">false</str>
 			<str name="highlight">false</str>
+		</lst>
+		<lst name="suggester">
+			<str name="name">datasetSamplingMethodSuggester</str>
+			<str name="lookupImpl">AnalyzingInfixLookupFactory</str>
+			<str name="dictionaryImpl">DocumentDictionaryFactory</str>
+			<str name="field">extras_sampeling_method</str>
+			<str name="minPrefixChars">2</str>
+			<str name="suggestAnalyzerFieldType">text</str>
+			<str name="buildOnStartup">false</str>
+			<str name="highlight">false</str>
+		</lst>
+		<lst name="suggester">
+			<str name="name">datasetBenchmarkSuggester</str>
+			<str name="lookupImpl">AnalyzingInfixLookupFactory</str>
+			<str name="dictionaryImpl">DocumentDictionaryFactory</str>
+			<str name="field">extras_benchmark</str>
+			<str name="minPrefixChars">2</str>
+			<str name="suggestAnalyzerFieldType">text</str>
+			<str name="buildOnStartup">false</str>
+			<str name="highlight">false</str>
 		</lst>		
 		<lst name="suggester">
 			<str name="name">datasetNotesSuggester</str>
