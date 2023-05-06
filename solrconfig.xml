@@ -395,7 +395,12 @@
 		<str name="suggest.dictionary">datasetTitleSuggester</str>
 		<str name="suggest.dictionary">datasetHebrewTitleSuggester</str>
 		<str name="suggest.dictionary">datasetNotesSuggester</str>
-		<str name="suggest.dictionary">datasetTagsSuggester</str>
+		<str name="suggest.dictionary">datasetSamplingMethodSuggester</str>
+		<str name="suggest.dictionary">datasetBenchmarkSuggester</str>
+		<str name="suggest.dictionary">datasetMeasuredPopulationSuggester</str>
+		<str name="suggest.dictionary">datasetMeasurementToolsSuggester</str>
+		<str name="suggest.dictionary">datasetMeasurementProceduresLinkSuggester</str>
+		<str name="suggest.dictionary">datasetHistoricalDepthSuggester</str>
 		</lst>
 		<arr name="components">
 		<str>suggest</str>
