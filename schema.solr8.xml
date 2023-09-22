@@ -173,6 +173,9 @@ attribute with the form `ckan-X.Y` -->
     <dynamicField name="res_extras_*" type="text" indexed="true" stored="true" multiValued="true"/>
     <dynamicField name="vocab_*" type="string" indexed="true" stored="true" multiValued="true"/>
     <dynamicField name="*" type="string" indexed="true"  stored="false"/>
+
+    <dynamicField name="ckanext-extractor_*" type="text" indexed="true" stored="false"/>
+
 </fields>
 
 <uniqueKey>index_id</uniqueKey>
@@ -199,5 +202,7 @@ attribute with the form `ckan-X.Y` -->
 <copyField source="res_description" dest="text"/>
 <copyField source="maintainer" dest="text"/>
 <copyField source="author" dest="text"/>
+
+<copyField source="ckanext-extractor_*" dest="text"/>
 
 </schema>
