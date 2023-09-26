@@ -13,6 +13,9 @@
 	<lib dir="${solr.install.dir:../../../..}/dist/" regex="solr-langid-\d.*\.jar" />
 	<lib dir="${solr.install.dir:../../../..}/contrib/velocity/lib" regex=".*\.jar" />
 	<lib dir="${solr.install.dir:../../../..}/dist/" regex="solr-velocity-\d.*\.jar" />
+
+	<lib dir="${solr.install.dir:../../../..}/dist/" regex="apache-solr-cell-\d.*\.jar" />
+	<lib dir="${solr.install.dir:../../../..}/contrib/extraction/lib" regex=".*\.jar" />
 	
 	<dataDir>${solr.data.dir:}</dataDir>
 	
